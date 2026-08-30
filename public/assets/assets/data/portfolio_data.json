@@ -1,0 +1,249 @@
+{
+  "personalInfo": {
+    "name": "Tarek",
+    "title": "Full-Stack Web Developer | Software Engineer",
+    "description": "I build responsive, high-performance web applications and scalable full-stack solutions using modern web technologies.",
+    "about": "Passionate Web Developer with hands-on experience building modern, responsive web applications and full-stack solutions. Committed to clean architecture, optimal web performance, and delivering seamless user experiences.",
+    "image": "assets/images/my_image.jpg",
+    "cv": "https://github.com/01014302142tarek",
+    "github": "https://github.com/01014302142tarek/Tarek_Portfolio",
+    "linkedin": "https://www.linkedin.com/in/01014302142tarek",
+    "email": "tarek.dev@gmail.com",
+    "whatsappNumber": "+201014302142",
+    "phone": "+201014302142"
+  },
+  "stats": [
+    {
+      "title": "10+",
+      "subtitle": "Web Projects",
+      "icon": "mobileScreen"
+    },
+    {
+      "title": "100%",
+      "subtitle": "Responsive UI",
+      "icon": "layerGroup"
+    },
+    {
+      "title": "8+",
+      "subtitle": "Tech Stacks",
+      "icon": "database"
+    },
+    {
+      "title": "Clean",
+      "subtitle": "Code & Architecture",
+      "icon": "checkDouble"
+    }
+  ],
+  "services": [
+    {
+      "title": "Full-Stack Web Development",
+      "description": "Building modern, scalable, and responsive web applications from interactive frontends to robust backends.",
+      "icon": "laptopCode"
+    },
+    {
+      "title": "Frontend & Interactive UI",
+      "description": "Crafting fast, accessible, and engaging web interfaces with modern CSS, React, Next.js, and TypeScript.",
+      "icon": "palette"
+    },
+    {
+      "title": "Backend & API Engineering",
+      "description": "Designing secure RESTful & GraphQL APIs, authentication workflows, and microservices architecture.",
+      "icon": "server"
+    },
+    {
+      "title": "Performance & Cloud Hosting",
+      "description": "Optimizing web performance, SEO, CI/CD automation, and modern deployment to Cloudflare & Cloud platforms.",
+      "icon": "bolt"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Full-Stack Web Developer (Freelance)",
+      "company": "Remote",
+      "period": "2024 – Present",
+      "description": "Developed and delivered responsive web applications, SaaS tools, and custom full-stack solutions for diverse clients."
+    },
+    {
+      "title": "Frontend Web Developer",
+      "company": "Web Solutions",
+      "period": "2023 – 2024",
+      "description": "Built interactive and modern user interfaces, implemented responsive layouts, and integrated third-party REST APIs."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Modern E-Commerce Web App",
+      "description": "Full-stack e-commerce web platform featuring product catalog, shopping cart, authentication, order tracking, and payment processing.",
+      "imageUrl": "assets/images/EDUON.jpeg",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Tailwind CSS"
+      ],
+      "playStoreUrl": null,
+      "githubUrl": "https://github.com/01014302142tarek/Tarek_Portfolio"
+    },
+    {
+      "title": "Interactive SaaS Dashboard",
+      "description": "Real-time web analytics and management dashboard with data visualization, dark/light theme, and secure authentication.",
+      "imageUrl": "assets/images/Diety.jpeg",
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "PostgreSQL",
+        "Tailwind CSS",
+        "REST APIs"
+      ],
+      "playStoreUrl": null,
+      "githubUrl": "https://github.com/01014302142tarek/Tarek_Portfolio"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Full-Stack Web Development Mastery",
+      "platform": "Professional Certification",
+      "date": "2025",
+      "icon": "layerGroup"
+    },
+    {
+      "title": "Modern React & Next.js Advanced Architecture",
+      "platform": "Web Academy",
+      "date": "2024",
+      "icon": "code"
+    },
+    {
+      "title": "Node.js & Backend API Engineering",
+      "platform": "Online Diploma",
+      "date": "2024",
+      "icon": "server"
+    },
+    {
+      "title": "Git & GitHub Version Control Professional",
+      "platform": "Open Source Certification",
+      "date": "2023",
+      "icon": "github"
+    }
+  ],
+  "expertise": [
+    {
+      "name": "React / Next.js",
+      "icon": "code"
+    },
+    {
+      "name": "JavaScript / TypeScript",
+      "icon": "code"
+    },
+    {
+      "name": "Node.js / Express",
+      "icon": "server"
+    },
+    {
+      "name": "HTML5 / CSS3",
+      "icon": "palette"
+    },
+    {
+      "name": "Tailwind CSS",
+      "icon": "layerGroup"
+    },
+    {
+      "name": "REST APIs",
+      "icon": "link"
+    },
+    {
+      "name": "PostgreSQL / MongoDB",
+      "icon": "database"
+    },
+    {
+      "name": "Git / GitHub",
+      "icon": "github"
+    },
+    {
+      "name": "Cloudflare / Vercel",
+      "icon": "bolt"
+    },
+    {
+      "name": "Clean Code & SOLID",
+      "icon": "checkDouble"
+    }
+  ],
+  "expertiseDetails": [
+    {
+      "title": "Problem Solver",
+      "desc": "Turning complex web requirements into clean, elegant, and maintainable solutions.",
+      "icon": "brain"
+    },
+    {
+      "title": "Clean Architecture",
+      "desc": "Scalable web architectures following modular design patterns and clean code principles.",
+      "icon": "checkDouble"
+    },
+    {
+      "title": "Performance First",
+      "desc": "Optimized web loading speeds, SEO-ready structure, and responsive design for all screens.",
+      "icon": "bolt"
+    }
+  ],
+  "techStack": [
+    {
+      "title": "Frontend Development",
+      "icon": "mobileScreen",
+      "skills": [
+        "React & Next.js",
+        "TypeScript & JavaScript (ES6+)",
+        "Tailwind CSS & Responsive UI",
+        "HTML5 & Advanced Modern CSS",
+        "State Management & Hooks"
+      ]
+    },
+    {
+      "title": "Backend & APIs",
+      "icon": "server",
+      "skills": [
+        "Node.js & Express.js",
+        "RESTful APIs & Postman",
+        "JWT & User Authentication",
+        "Server-Side Rendering (SSR)",
+        "API Integration & Webhooks"
+      ]
+    },
+    {
+      "title": "Databases & Storage",
+      "icon": "database",
+      "skills": [
+        "MongoDB & Mongoose",
+        "PostgreSQL & MySQL",
+        "Redis & Caching",
+        "Cloud Storage & Firebase"
+      ]
+    },
+    {
+      "title": "Tools & Engineering",
+      "icon": "code",
+      "skills": [
+        "Git & GitHub Version Control",
+        "Cloudflare & Vercel Deployment",
+        "OOP & Software Design Patterns",
+        "Web Performance & SEO Best Practices"
+      ]
+    }
+  ],
+  "socialLinks": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/01014302142tarek/Tarek_Portfolio",
+      "icon": "github"
+    },
+    {
+      "platform": "WhatsApp",
+      "url": "https://wa.me/201014302142",
+      "icon": "whatsapp"
+    },
+    {
+      "platform": "Email",
+      "url": "mailto:tarek.dev@gmail.com",
+      "icon": "email"
+    }
+  ]
+}
