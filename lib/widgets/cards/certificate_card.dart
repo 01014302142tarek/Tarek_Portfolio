@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
+import '../pdf_viewer_web.dart';
 import '../../core/theme/app_colors.dart';
 
 class CertificateCard extends StatefulWidget {
@@ -71,7 +71,7 @@ class _CertificateCardState extends State<CertificateCard> {
                         Expanded(
                           child: ClipRRect(
                             borderRadius: BorderRadius.circular(8),
-                            child: SfPdfViewer.asset(widget.url!),
+                            child: PdfWebViewer(assetPath: widget.url!),
                           ),
                         ),
                       ],
