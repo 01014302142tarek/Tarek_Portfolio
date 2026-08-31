@@ -33,6 +33,9 @@ class _SplashPageState extends State<SplashPage> {
 
     if (!mounted) return;
 
+    // 3. Hide Web Splash if exists
+    SplashService.hide();
+
     // 4. Navigate to Home
     Navigator.of(context).pushReplacement(
       PageRouteBuilder(
