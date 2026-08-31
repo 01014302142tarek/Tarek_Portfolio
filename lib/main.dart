@@ -2,9 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'core/theme/app_theme.dart';
-import 'pages/splash_page.dart';
+import 'core/data/portfolio_data.dart';
+import 'core/utils/splash_service.dart';
+import 'pages/home_page.dart';
 
-void main() {
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   ErrorWidget.builder = (FlutterErrorDetails details) {
     return Material(
@@ -21,7 +23,19 @@ void main() {
       ),
     );
   };
+  
   usePathUrlStrategy();
+  
+  // Load data before running app to skip Dart splash screen entirely
+  try {
+    await PortfolioData.load().timeout(const Duration(seconds: 1));
+  } catch (e) {
+    debugPrint('Error loading data: $e');
+  }
+  
+  // Hide the HTML splash screen
+  SplashService.hide();
+  
   runApp(const PortfolioApp());
 }
 
@@ -45,7 +59,7 @@ class PortfolioApp extends StatelessWidget {
       title: 'Tarek Bakr - Full-Stack & Cybersecurity Portfolio',
       theme: AppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      home: const SplashPage(),
+      home: const HomePage(),
     );
   }
 }
