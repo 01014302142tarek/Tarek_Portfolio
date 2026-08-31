@@ -125,6 +125,13 @@
   ],
   "certificates": [
     {
+      "title": "Experience Certificate",
+      "platform": "North Shore Digital LLC",
+      "date": "2026",
+      "url": "assets/pdf/experience.pdf",
+      "icon": "fileInvoice"
+    },
+    {
       "title": "Cybersecurity Training",
       "platform": "CLS Learning Solutions",
       "date": "2025",

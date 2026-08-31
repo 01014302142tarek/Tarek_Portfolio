@@ -37,6 +37,7 @@ class CertificatesSection extends StatelessWidget {
                         title: cert['title'] ?? '',
                         platform: cert['platform'] ?? '',
                         date: cert['date'] ?? '',
+                        url: cert['url'],
                         icon: FaIcon(
                           IconHelper.getIcon(cert['icon'] ?? ''),
                           color: AppColors.primary,

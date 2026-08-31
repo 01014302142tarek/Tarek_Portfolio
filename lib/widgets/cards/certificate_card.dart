@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../core/theme/app_colors.dart';
 
 class CertificateCard extends StatefulWidget {
@@ -6,6 +7,7 @@ class CertificateCard extends StatefulWidget {
   final String platform;
   final String date;
   final Widget icon;
+  final String? url;
 
   const CertificateCard({
     super.key,
@@ -13,6 +15,7 @@ class CertificateCard extends StatefulWidget {
     required this.platform,
     required this.date,
     required this.icon,
+    this.url,
   });
 
   @override
@@ -29,9 +32,11 @@ class _CertificateCardState extends State<CertificateCard> {
     return MouseRegion(
       onEnter: (_) => setState(() => isHovered = true),
       onExit: (_) => setState(() => isHovered = false),
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 300),
-        width: isMobile ? double.infinity : 300,
+      child: GestureDetector(
+        onTap: widget.url != null ? () => launchUrl(Uri.parse(widget.url!)) : null,
+        child: AnimatedContainer(
+          duration: const Duration(milliseconds: 300),
+          width: isMobile ? double.infinity : 300,
         constraints: const BoxConstraints(minHeight: 280),
         padding: const EdgeInsets.all(24),
         decoration: BoxDecoration(
