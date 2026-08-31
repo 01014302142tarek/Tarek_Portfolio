@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 import '../../core/theme/app_colors.dart';
 
 class CertificateCard extends StatefulWidget {
@@ -33,7 +34,56 @@ class _CertificateCardState extends State<CertificateCard> {
       onEnter: (_) => setState(() => isHovered = true),
       onExit: (_) => setState(() => isHovered = false),
       child: GestureDetector(
-        onTap: widget.url != null ? () => launchUrl(Uri.parse(widget.url!)) : null,
+        onTap: () {
+          if (widget.url != null) {
+            if (widget.url!.endsWith('.pdf')) {
+              showDialog(
+                context: context,
+                builder: (context) => Dialog(
+                  backgroundColor: AppColors.background,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Container(
+                    width: isMobile ? double.infinity : 800,
+                    height: isMobile ? MediaQuery.of(context).size.height * 0.8 : 600,
+                    padding: const EdgeInsets.all(16),
+                    child: Column(
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              widget.title,
+                              style: const TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                color: AppColors.textPrimary,
+                              ),
+                            ),
+                            IconButton(
+                              icon: const Icon(Icons.close, color: AppColors.textSecondary),
+                              onPressed: () => Navigator.of(context).pop(),
+                            ),
+                          ],
+                        ),
+                        const SizedBox(height: 16),
+                        Expanded(
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(8),
+                            child: SfPdfViewer.asset(widget.url!),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              );
+            } else {
+              launchUrl(Uri.parse(widget.url!));
+            }
+          }
+        },
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 300),
           width: isMobile ? double.infinity : 300,
