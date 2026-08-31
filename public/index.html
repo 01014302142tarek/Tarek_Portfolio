@@ -26,13 +26,13 @@
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Tarek Portfolio">
+  <meta name="apple-mobile-web-app-title" content="Tarek Bakr Portfolio">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/jpeg" href="my_image.jpg"/>
+  <link rel="icon" type="image/jpeg" href="my_image.jpeg"/>
 
-  <title>Tarek - Web Developer Portfolio</title>
+  <title>Tarek Bakr - Web Developer Portfolio</title>
   <link rel="manifest" href="manifest.json">
   <style>
     body {
@@ -172,12 +172,21 @@
       }
     }
   </script>
+  <!-- pdfx requirements -->
+  <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js"></script>
+  <script type="text/javascript">
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js";
+    pdfRenderOptions = {
+      cMapUrl: 'https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/cmaps/',
+      cMapPacked: true,
+    }
+  </script>
 </head>
 <body>
   <div id="splash">
     <div class="profile-container">
       <div class="glow"></div>
-      <img src="my_image.jpg" class="profile-img" alt="Tarek">
+      <img src="my_image.jpeg" class="profile-img" alt="Tarek">
     </div>
     <div class="name-text">TAREK</div>
     <div class="loading-bar">
