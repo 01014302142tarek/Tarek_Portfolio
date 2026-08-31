@@ -39,6 +39,18 @@ class IconHelper {
         return FontAwesomeIcons.gaugeHigh;
       case 'mobileButton':
         return FontAwesomeIcons.mobileButton;
+      case 'businessTime':
+        return FontAwesomeIcons.businessTime;
+      case 'shieldHalved':
+        return FontAwesomeIcons.shieldHalved;
+      case 'fileInvoice':
+        return FontAwesomeIcons.fileInvoice;
+      case 'lock':
+        return FontAwesomeIcons.lock;
+      case 'globe':
+        return FontAwesomeIcons.globe;
+      case 'ship':
+        return FontAwesomeIcons.ship;
       case 'laptopCode':
         return FontAwesomeIcons.laptopCode;
       case 'graduationCap':
