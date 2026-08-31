@@ -27,7 +27,7 @@ class PortfolioApp extends StatelessWidget {
           ],
         );
       },
-      title: 'Tarek - Web Developer Portfolio',
+      title: 'Tarek Bakr - Full-Stack & Cybersecurity Portfolio',
       theme: AppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
       home: const SplashPage(),

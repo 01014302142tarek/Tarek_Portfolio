@@ -11,7 +11,7 @@ class AppConstants {
       'I am a passionate Flutter developer with a strong foundation in mobile app development. I enjoy building high-quality, user-friendly applications that solve real-world problems. With experience in both frontend and backend development, I am committed to creating seamless and efficient mobile experiences.';
 
   static String get devImagePath =>
-      _info['image'] ?? 'assets/images/my_image.jpg';
+      _info['image'] ?? 'assets/images/my_image.jpeg';
   static String get devCvPath =>
       _info['cv'] ??
       'https://drive.google.com/file/d/1o4O1oOJMVoQpqk9DghUuFOFuRJt7Oox4/view?usp=drive_link';

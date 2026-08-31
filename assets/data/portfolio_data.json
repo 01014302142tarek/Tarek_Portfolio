@@ -1,22 +1,22 @@
 {
   "personalInfo": {
-    "name": "Tarek",
-    "title": "Full-Stack Web Developer | Software Engineer",
-    "description": "I build responsive, high-performance web applications and scalable full-stack solutions using modern web technologies.",
-    "about": "Passionate Web Developer with hands-on experience building modern, responsive web applications and full-stack solutions. Committed to clean architecture, optimal web performance, and delivering seamless user experiences.",
-    "image": "assets/images/my_image.jpg",
-    "cv": "https://github.com/01014302142tarek",
-    "github": "https://github.com/01014302142tarek/Tarek_Portfolio",
-    "linkedin": "https://www.linkedin.com/in/01014302142tarek",
-    "email": "tarek.dev@gmail.com",
+    "name": "Tarek Bakr",
+    "title": "Full-Stack Web Developer | Cybersecurity Specialist",
+    "description": "I build responsive, high-performance web applications and specialize in web application security and vulnerability assessment.",
+    "about": "Full-Stack Web Developer and Cybersecurity Specialist with professional experience developing and delivering web applications using JavaScript, React.js, and Node.js. Experienced in frontend and backend development, API integration, application testing, Git/GitHub workflows, and end-to-end project delivery.",
+    "image": "assets/images/my_image.jpeg",
+    "cv": "assets/pdf/cv.pdf",
+    "github": "https://github.com/TarekBakr",
+    "linkedin": "https://linkedin.com/in/tarek-bakr-",
+    "email": "tbakr373@gmail.com",
     "whatsappNumber": "+201014302142",
     "phone": "+201014302142"
   },
   "stats": [
     {
-      "title": "10+",
+      "title": "8+",
       "subtitle": "Web Projects",
-      "icon": "mobileScreen"
+      "icon": "laptopCode"
     },
     {
       "title": "100%",
@@ -24,14 +24,14 @@
       "icon": "layerGroup"
     },
     {
-      "title": "8+",
-      "subtitle": "Tech Stacks",
-      "icon": "database"
+      "title": "3+",
+      "subtitle": "Years Experience",
+      "icon": "businessTime"
     },
     {
-      "title": "Clean",
-      "subtitle": "Code & Architecture",
-      "icon": "checkDouble"
+      "title": "Secure",
+      "subtitle": "Architecture",
+      "icon": "shieldHalved"
     }
   ],
   "services": [
@@ -41,143 +41,128 @@
       "icon": "laptopCode"
     },
     {
+      "title": "Cybersecurity & Pentesting",
+      "description": "Web application security testing, vulnerability assessment using Burp Suite, OWASP ZAP, and Nmap.",
+      "icon": "shieldHalved"
+    },
+    {
       "title": "Frontend & Interactive UI",
-      "description": "Crafting fast, accessible, and engaging web interfaces with modern CSS, React, Next.js, and TypeScript.",
+      "description": "Crafting fast, accessible, and engaging web interfaces with React, Next.js, and JavaScript.",
       "icon": "palette"
     },
     {
       "title": "Backend & API Engineering",
-      "description": "Designing secure RESTful & GraphQL APIs, authentication workflows, and microservices architecture.",
+      "description": "Designing secure RESTful APIs, Node.js applications, and integrating third-party services.",
       "icon": "server"
-    },
-    {
-      "title": "Performance & Cloud Hosting",
-      "description": "Optimizing web performance, SEO, CI/CD automation, and modern deployment to Cloudflare & Cloud platforms.",
-      "icon": "bolt"
     }
   ],
   "experience": [
     {
-      "title": "Full-Stack Web Developer (Freelance)",
-      "company": "Remote",
-      "period": "2024 – Present",
-      "description": "Developed and delivered responsive web applications, SaaS tools, and custom full-stack solutions for diverse clients."
-    },
+      "title": "Web Developer & Cybersecurity Specialist",
+      "company": "North Shore Digital LLC - Remote US-based Projects",
+      "period": "Jan 2026 - May 2026",
+      "description": "Developed full-stack web applications using JavaScript, React.js, and Node.js. Performed web application security testing and vulnerability assessment using Burp Suite, OWASP ZAP, Nmap, and SQLMap. Collaborated remotely to implement requirements and deliver completed projects."
+    }
+  ],
+  "education": [
     {
-      "title": "Frontend Web Developer",
-      "company": "Web Solutions",
-      "period": "2023 – 2024",
-      "description": "Built interactive and modern user interfaces, implemented responsive layouts, and integrated third-party REST APIs."
+      "degree": "Bachelor's Degree in Information Technology and Software",
+      "university": "Delta Technology University, Egypt",
+      "period": "Sept 2022 - June 2026",
+      "grade": "Distinction / Excellent grades during the first three academic years.",
+      "icon": "graduationCap"
     }
   ],
   "projects": [
     {
-      "title": "Modern E-Commerce Web App",
-      "description": "Full-stack e-commerce web platform featuring product catalog, shopping cart, authentication, order tracking, and payment processing.",
-      "imageUrl": "assets/images/EDUON.jpeg",
-      "technologies": [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Tailwind CSS"
-      ],
+      "title": "Islamic Center of the Twin Ports",
+      "description": "Developed the website from the ground up, working across both frontend and backend development. Implemented website functionality and performed application security testing.",
+      "imageUrl": "assets/images/my_image.jpeg",
+      "technologies": ["React", "Node.js", "Security Testing"],
       "playStoreUrl": null,
-      "githubUrl": "https://github.com/01014302142tarek/Tarek_Portfolio"
+      "githubUrl": "https://www.ictpmn.org/"
     },
     {
-      "title": "Interactive SaaS Dashboard",
-      "description": "Real-time web analytics and management dashboard with data visualization, dark/light theme, and secure authentication.",
-      "imageUrl": "assets/images/Diety.jpeg",
-      "technologies": [
-        "Next.js",
-        "TypeScript",
-        "PostgreSQL",
-        "Tailwind CSS",
-        "REST APIs"
-      ],
+      "title": "Afify LLC - US Client Project",
+      "description": "Developed a complete business website for a US-based client, contributing across frontend and backend development.",
+      "imageUrl": "assets/images/my_image.jpeg",
+      "technologies": ["Frontend", "Backend", "Full-Stack"],
       "playStoreUrl": null,
-      "githubUrl": "https://github.com/01014302142tarek/Tarek_Portfolio"
+      "githubUrl": "https://www.afifyus.com/en"
+    },
+    {
+      "title": "StudyScope - Educational Platform",
+      "description": "Contributed to the development of an educational platform focused on quizzes, instant feedback, performance analytics, and adaptive learning.",
+      "imageUrl": "assets/images/my_image.jpeg",
+      "technologies": ["React", "Node.js", "Analytics"],
+      "playStoreUrl": null,
+      "githubUrl": "https://studyscope.app/"
+    },
+    {
+      "title": "Tawari / Tamanna Emergency Platform",
+      "description": "Contributed primarily to frontend development and to a significant portion of the backend implementation. Integrated application features for emergency response.",
+      "imageUrl": "assets/images/my_image.jpeg",
+      "technologies": ["Frontend", "Backend", "Emergency Services"],
+      "playStoreUrl": null,
+      "githubUrl": "https://www.tawariapp.com/ar"
+    },
+    {
+      "title": "Dakota Valley Transport",
+      "description": "Designed and developed a complete demonstration website for a US-based agricultural transportation and logistics business.",
+      "imageUrl": "assets/images/my_image.jpeg",
+      "technologies": ["React", "UI/UX", "Logistics"],
+      "playStoreUrl": null,
+      "githubUrl": "https://dakotavalleytransport.vercel.app/contact"
+    },
+    {
+      "title": "BMAD - Code Analysis Application",
+      "description": "Built a GitHub-integrated code-analysis application to automatically analyze uploaded code changes before merging into the main branch.",
+      "imageUrl": "assets/images/my_image.jpeg",
+      "technologies": ["JavaScript", "GitHub API", "Automation"],
+      "playStoreUrl": null,
+      "githubUrl": null
     }
   ],
   "certificates": [
     {
-      "title": "Full-Stack Web Development Mastery",
-      "platform": "Professional Certification",
+      "title": "Cybersecurity Training",
+      "platform": "CLS Learning Solutions",
       "date": "2025",
-      "icon": "layerGroup"
+      "icon": "shieldHalved"
     },
     {
-      "title": "Modern React & Next.js Advanced Architecture",
-      "platform": "Web Academy",
+      "title": "Cybersecurity Training Program",
+      "platform": "Smart Village, Egypt",
       "date": "2024",
-      "icon": "code"
+      "icon": "lock"
     },
     {
-      "title": "Node.js & Backend API Engineering",
-      "platform": "Online Diploma",
-      "date": "2024",
-      "icon": "server"
-    },
-    {
-      "title": "Git & GitHub Version Control Professional",
-      "platform": "Open Source Certification",
+      "title": "Naval Shipyard Technical Training",
+      "platform": "Alexandria Naval Shipyard",
       "date": "2023",
-      "icon": "github"
+      "icon": "server"
     }
   ],
   "expertise": [
-    {
-      "name": "React / Next.js",
-      "icon": "code"
-    },
-    {
-      "name": "JavaScript / TypeScript",
-      "icon": "code"
-    },
-    {
-      "name": "Node.js / Express",
-      "icon": "server"
-    },
-    {
-      "name": "HTML5 / CSS3",
-      "icon": "palette"
-    },
-    {
-      "name": "Tailwind CSS",
-      "icon": "layerGroup"
-    },
-    {
-      "name": "REST APIs",
-      "icon": "link"
-    },
-    {
-      "name": "PostgreSQL / MongoDB",
-      "icon": "database"
-    },
-    {
-      "name": "Git / GitHub",
-      "icon": "github"
-    },
-    {
-      "name": "Cloudflare / Vercel",
-      "icon": "bolt"
-    },
-    {
-      "name": "Clean Code & SOLID",
-      "icon": "checkDouble"
-    }
+    { "name": "React.js", "icon": "code" },
+    { "name": "Node.js", "icon": "server" },
+    { "name": "JavaScript", "icon": "code" },
+    { "name": "Cybersecurity", "icon": "shieldHalved" },
+    { "name": "Burp Suite / OWASP", "icon": "shieldHalved" },
+    { "name": "Git / GitHub", "icon": "github" },
+    { "name": "REST APIs", "icon": "link" },
+    { "name": "Networking", "icon": "globe" }
   ],
   "expertiseDetails": [
     {
       "title": "Problem Solver",
-      "desc": "Turning complex web requirements into clean, elegant, and maintainable solutions.",
+      "desc": "Turning complex web requirements into clean, elegant, and secure solutions.",
       "icon": "brain"
     },
     {
-      "title": "Clean Architecture",
-      "desc": "Scalable web architectures following modular design patterns and clean code principles.",
-      "icon": "checkDouble"
+      "title": "Security First",
+      "desc": "Ensuring applications are safe through rigorous vulnerability assessment and best practices.",
+      "icon": "shieldHalved"
     },
     {
       "title": "Performance First",
@@ -187,53 +172,31 @@
   ],
   "techStack": [
     {
-      "title": "Frontend Development",
-      "icon": "mobileScreen",
-      "skills": [
-        "React & Next.js",
-        "TypeScript & JavaScript (ES6+)",
-        "Tailwind CSS & Responsive UI",
-        "HTML5 & Advanced Modern CSS",
-        "State Management & Hooks"
-      ]
-    },
-    {
-      "title": "Backend & APIs",
-      "icon": "server",
-      "skills": [
-        "Node.js & Express.js",
-        "RESTful APIs & Postman",
-        "JWT & User Authentication",
-        "Server-Side Rendering (SSR)",
-        "API Integration & Webhooks"
-      ]
-    },
-    {
-      "title": "Databases & Storage",
-      "icon": "database",
-      "skills": [
-        "MongoDB & Mongoose",
-        "PostgreSQL & MySQL",
-        "Redis & Caching",
-        "Cloud Storage & Firebase"
-      ]
-    },
-    {
-      "title": "Tools & Engineering",
+      "title": "Web Development",
       "icon": "code",
-      "skills": [
-        "Git & GitHub Version Control",
-        "Cloudflare & Vercel Deployment",
-        "OOP & Software Design Patterns",
-        "Web Performance & SEO Best Practices"
-      ]
+      "skills": ["React.js", "JavaScript", "Node.js", "HTML & CSS", "REST APIs", "Full-Stack Development"]
+    },
+    {
+      "title": "Cybersecurity & Tools",
+      "icon": "shieldHalved",
+      "skills": ["Burp Suite", "OWASP ZAP", "Nmap", "Wireshark", "SQLMap", "Vulnerability Assessment", "Metasploit", "Gobuster"]
+    },
+    {
+      "title": "Networking & Systems",
+      "icon": "server",
+      "skills": ["TCP/IP", "OSI Model", "VLAN", "Windows / Linux / Kali", "Bash Scripting", "Python"]
     }
   ],
   "socialLinks": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/01014302142tarek/Tarek_Portfolio",
+      "url": "https://github.com/TarekBakr",
       "icon": "github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/tarek-bakr-",
+      "icon": "linkedin"
     },
     {
       "platform": "WhatsApp",
@@ -242,7 +205,7 @@
     },
     {
       "platform": "Email",
-      "url": "mailto:tarek.dev@gmail.com",
+      "url": "mailto:tbakr373@gmail.com",
       "icon": "email"
     }
   ]
