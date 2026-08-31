@@ -131,9 +131,9 @@ class _ProjectCardState extends State<ProjectCard> {
                           children: [
                             if (widget.githubUrl != null)
                               OutlineButton(
-                                text: 'GitHub',
+                                text: 'View Website',
                                 icon: const FaIcon(
-                                  FontAwesomeIcons.github,
+                                  FontAwesomeIcons.globe,
                                   size: 16,
                                 ),
                                 onPressed: () => _launchUrl(widget.githubUrl),
@@ -173,9 +173,9 @@ class _ProjectCardState extends State<ProjectCard> {
                               child: const Row(
                                 mainAxisSize: MainAxisSize.min,
                                 children: [
-                                  FaIcon(FontAwesomeIcons.github, size: 14, color: Colors.white),
+                                  FaIcon(FontAwesomeIcons.globe, size: 14, color: Colors.white),
                                   SizedBox(width: 6),
-                                  Text('GitHub', style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w500)),
+                                  Text('View Website', style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w500)),
                                 ],
                               ),
                             ),
