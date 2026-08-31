@@ -6,6 +6,21 @@ import 'pages/splash_page.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  ErrorWidget.builder = (FlutterErrorDetails details) {
+    return Material(
+      child: Container(
+        color: Colors.red,
+        padding: const EdgeInsets.all(20),
+        child: SingleChildScrollView(
+          child: Text(
+            details.exceptionAsString() + '\n' + (details.stack?.toString() ?? ''),
+            style: const TextStyle(color: Colors.white, fontSize: 16),
+            textDirection: TextDirection.ltr,
+          ),
+        ),
+      ),
+    );
+  };
   usePathUrlStrategy();
   runApp(const PortfolioApp());
 }

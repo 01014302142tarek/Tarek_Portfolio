@@ -1,0 +1,1 @@
+import 'dart:convert'; void main() { var j = jsonDecode('{\"a\": [{\"b\": 1}]}'); var l = List<Map<String, dynamic>>.from(j['a']); print('Success: \'); }
