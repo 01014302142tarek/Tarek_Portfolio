@@ -23,20 +23,17 @@ class _SplashPageState extends State<SplashPage> {
   Future<void> _initializeApp() async {
     // 1. Load Data
     try {
-      await PortfolioData.load().timeout(const Duration(seconds: 2));
+      await PortfolioData.load().timeout(const Duration(seconds: 1));
     } catch (e) {
       debugPrint('Error or timeout loading data: $e');
     }
 
-    // 2. Wait a bit for the animation (500ms is enough for a snappy feel)
-    await Future.delayed(const Duration(milliseconds: 500));
-
     if (!mounted) return;
 
-    // 3. Hide Web Splash if exists
+    // 2. Hide Web Splash if exists
     SplashService.hide();
 
-    // 4. Navigate to Home
+    // 3. Navigate to Home
     Navigator.of(context).pushReplacement(
       PageRouteBuilder(
         pageBuilder: (context, animation, secondaryAnimation) =>
@@ -44,7 +41,7 @@ class _SplashPageState extends State<SplashPage> {
         transitionsBuilder: (context, animation, secondaryAnimation, child) {
           return FadeTransition(opacity: animation, child: child);
         },
-        transitionDuration: const Duration(milliseconds: 800),
+        transitionDuration: const Duration(milliseconds: 400),
       ),
     );
   }
