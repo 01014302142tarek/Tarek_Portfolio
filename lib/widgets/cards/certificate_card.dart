@@ -166,6 +166,7 @@ class _CertificateCardState extends State<CertificateCard> {
           ],
         ),
       ),
+    ),
     );
   }
 }
