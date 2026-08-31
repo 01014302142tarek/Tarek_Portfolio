@@ -36,7 +36,7 @@ class _CertificateCardState extends State<CertificateCard> {
       child: GestureDetector(
         onTap: () {
           if (widget.url != null) {
-            if (widget.url!.endsWith('.pdf')) {
+            if (widget.url!.endsWith('.pdf') || widget.url!.endsWith('.dat')) {
               showDialog(
                 context: context,
                 builder: (context) => Dialog(
