@@ -1,4 +1,4 @@
-name: Deploy Flutter Web
+name: Build & Update Public Folder
 
 on:
   push:
@@ -6,10 +6,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  build-and-update-public:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,10 +21,21 @@ jobs:
           flutter-version: '3.41.4'
           channel: 'stable'
 
-      - run: flutter pub get
-      - run: flutter build web --release --no-tree-shake-icons --base-href "/"
+      - name: Install dependencies
+        run: flutter pub get
 
-      - uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/web
+      - name: Build Flutter Web
+        run: flutter build web --release --no-tree-shake-icons --base-href "/"
+
+      - name: Clear old public folder & copy new build
+        run: |
+          rm -rf public
+          cp -r build/web public
+
+      - name: Commit & push updated public folder
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/
+          git diff --staged --quiet || git commit -m "chore: update public build [skip ci]"
+          git push origin main
