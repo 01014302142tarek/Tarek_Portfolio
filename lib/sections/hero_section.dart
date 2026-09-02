@@ -4,8 +4,6 @@ import 'package:flutter_animate/flutter_animate.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 import 'package:url_launcher/url_launcher.dart';
-// ignore: avoid_web_libraries_in_flutter
-import 'dart:html' as html;
 import '../../core/constants/app_constants.dart';
 import '../../core/theme/app_colors.dart';
 import '../widgets/buttons/primary_button.dart';
@@ -149,8 +147,9 @@ class _HeroText extends StatelessWidget {
             OutlineButton(
               text: 'View CV',
               icon: const FaIcon(FontAwesomeIcons.fileLines, size: 20),
-              onPressed: () {
-                html.window.open(AppConstants.devCvPath, '_blank');
+              onPressed: () async {
+                final cvUri = Uri.base.resolve(AppConstants.devCvPath);
+                await launchUrl(cvUri, webOnlyWindowName: '_blank');
               },
             ),
             OutlineButton(
