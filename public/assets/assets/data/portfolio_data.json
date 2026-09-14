@@ -77,7 +77,7 @@
     {
       "title": "Islamic Center of the Twin Ports",
       "description": "Developed the website from the ground up, working across both frontend and backend development. Implemented website functionality and performed application security testing.",
-      "imageUrl": "assets/images/my_image.jpeg",
+      "imageUrl": "assets/images/project_ictpmn.jpeg",
       "technologies": ["React", "Node.js", "Security Testing"],
       "playStoreUrl": null,
       "githubUrl": "https://www.ictpmn.org/"
@@ -85,7 +85,7 @@
     {
       "title": "Afify LLC - US Client Project",
       "description": "Developed a complete business website for a US-based client, contributing across frontend and backend development.",
-      "imageUrl": "assets/images/my_image.jpeg",
+      "imageUrl": "assets/images/project_afify.jpeg",
       "technologies": ["Frontend", "Backend", "Full-Stack"],
       "playStoreUrl": null,
       "githubUrl": "https://www.afifyus.com/en"
@@ -93,7 +93,7 @@
     {
       "title": "StudyScope - Educational Platform",
       "description": "Contributed to the development of an educational platform focused on quizzes, instant feedback, performance analytics, and adaptive learning.",
-      "imageUrl": "assets/images/my_image.jpeg",
+      "imageUrl": "assets/images/project_studyscope.jpeg",
       "technologies": ["React", "Node.js", "Analytics"],
       "playStoreUrl": null,
       "githubUrl": "https://studyscope.app/"
@@ -101,7 +101,7 @@
     {
       "title": "Tawari / Tamanna Emergency Platform",
       "description": "Contributed primarily to frontend development and to a significant portion of the backend implementation. Integrated application features for emergency response.",
-      "imageUrl": "assets/images/my_image.jpeg",
+      "imageUrl": "assets/images/project_tawari.jpeg",
       "technologies": ["Frontend", "Backend", "Emergency Services"],
       "playStoreUrl": null,
       "githubUrl": "https://www.tawariapp.com/ar"
@@ -109,7 +109,7 @@
     {
       "title": "Dakota Valley Transport",
       "description": "Designed and developed a complete demonstration website for a US-based agricultural transportation and logistics business.",
-      "imageUrl": "assets/images/my_image.jpeg",
+      "imageUrl": "assets/images/project_dakota.jpeg",
       "technologies": ["React", "UI/UX", "Logistics"],
       "playStoreUrl": null,
       "githubUrl": "https://dakotavalleytransport.vercel.app/contact"
@@ -117,7 +117,7 @@
     {
       "title": "BMAD - Code Analysis Application",
       "description": "Built a GitHub-integrated code-analysis application to automatically analyze uploaded code changes before merging into the main branch.",
-      "imageUrl": "assets/images/my_image.jpeg",
+      "imageUrl": "assets/images/project_bmad.jpeg",
       "technologies": ["JavaScript", "GitHub API", "Automation"],
       "playStoreUrl": null,
       "githubUrl": null
