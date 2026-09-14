@@ -148,8 +148,10 @@ class _HeroText extends StatelessWidget {
               text: 'View CV',
               icon: const FaIcon(FontAwesomeIcons.fileLines, size: 20),
               onPressed: () async {
-                final cvUri = Uri.base.resolve(AppConstants.devCvPath);
-                await launchUrl(cvUri, webOnlyWindowName: '_blank');
+                final Uri url = Uri.parse(AppConstants.devCvPath);
+                if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+                  debugPrint('Could not launch CV');
+                }
               },
             ),
             OutlineButton(
