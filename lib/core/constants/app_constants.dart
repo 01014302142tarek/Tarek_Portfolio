@@ -14,7 +14,7 @@ class AppConstants {
       _info['image'] ?? 'assets/images/my_image.jpeg';
   static String get devCvPath =>
       _info['cv'] ??
-      'https://drive.google.com/file/d/1o4O1oOJMVoQpqk9DghUuFOFuRJt7Oox4/view?usp=drive_link';
+      'https://drive.google.com/file/d/1JoPtVsH2aoip9WDY35OdxCwu4B966gSW/view?usp=drive_link';
 
   // Social Links
   static String get githubUrl =>
