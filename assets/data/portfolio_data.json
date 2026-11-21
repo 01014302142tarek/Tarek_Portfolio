@@ -96,7 +96,7 @@
       "imageUrl": "assets/images/project_studyscope.jpeg",
       "technologies": ["React", "Node.js", "Analytics"],
       "playStoreUrl": null,
-      "githubUrl": "https://studyscope.app/"
+      "githubUrl": null
     },
     {
       "title": "Tawari / Tamanna Emergency Platform",
