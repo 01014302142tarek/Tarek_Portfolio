@@ -6,7 +6,7 @@
     "about": "Full-Stack Web Developer and Cybersecurity Specialist with professional experience developing and delivering web applications using JavaScript, React.js, and Node.js. Experienced in frontend and backend development, API integration, application testing, Git/GitHub workflows, and end-to-end project delivery.",
     "image": "assets/images/my_image.jpeg",
     "cv": "https://drive.google.com/file/d/1JoPtVsH2aoip9WDY35OdxCwu4B966gSW/view?usp=drive_link",
-    "github": "https://github.com/TarekBakr",
+    "github": "https://github.com/01014302142tarek",
     "linkedin": "https://linkedin.com/in/tarek-bakr-",
     "email": "tbakr373@gmail.com",
     "whatsappNumber": "+201014302142",
@@ -84,7 +84,7 @@
     },
     {
       "title": "Afify LLC - US Client Project",
-      "description": "Developed a complete business website for a US-based client, contributing across frontend and backend development.",
+      "description": "Built a complete business website for a US-based client end to end, across frontend and backend development.",
       "imageUrl": "assets/images/project_afify.jpeg",
       "technologies": ["Frontend", "Backend", "Full-Stack"],
       "playStoreUrl": null,
@@ -92,11 +92,11 @@
     },
     {
       "title": "StudyScope - Educational Platform",
-      "description": "Contributed to the development of an educational platform focused on quizzes, instant feedback, performance analytics, and adaptive learning.",
+      "description": "Built an educational platform end to end, focused on quizzes, instant feedback, performance analytics, and adaptive learning.",
       "imageUrl": "assets/images/project_studyscope.jpeg",
       "technologies": ["React", "Node.js", "Analytics"],
       "playStoreUrl": null,
-      "githubUrl": "https://studyscope.app/"
+      "githubUrl": null
     },
     {
       "title": "Tawari / Tamanna Emergency Platform",
@@ -197,7 +197,7 @@
   "socialLinks": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/TarekBakr",
+      "url": "https://github.com/01014302142tarek",
       "icon": "github"
     },
     {
