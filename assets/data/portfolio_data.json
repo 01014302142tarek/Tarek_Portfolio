@@ -76,7 +76,7 @@
   "projects": [
     {
       "title": "Islamic Center of the Twin Ports",
-      "description": "Developed the website from the ground up, working across both frontend and backend development. Implemented website functionality and performed application security testing.",
+      "description": "Developed the website from the ground up, working across both frontend and backend development. Implemented website functionality and performed application security testing. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_ictpmn.jpeg",
       "technologies": ["React", "Node.js", "Security Testing"],
       "playStoreUrl": null,
@@ -84,7 +84,7 @@
     },
     {
       "title": "Afify LLC - US Client Project",
-      "description": "Built a complete business website for a US-based client end to end, across frontend and backend development.",
+      "description": "Built a complete business website for a US-based client end to end, across frontend and backend development. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_afify.jpeg",
       "technologies": ["Frontend", "Backend", "Full-Stack"],
       "playStoreUrl": null,
@@ -100,7 +100,7 @@
     },
     {
       "title": "Tawari / Tamanna Emergency Platform",
-      "description": "Contributed primarily to frontend development and to a significant portion of the backend implementation. Integrated application features for emergency response.",
+      "description": "Contributed primarily to frontend development and to a significant portion of the backend implementation. Integrated application features for emergency response. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_tawari.jpeg",
       "technologies": ["Frontend", "Backend", "Emergency Services"],
       "playStoreUrl": null,
@@ -108,7 +108,7 @@
     },
     {
       "title": "Dakota Valley Transport",
-      "description": "Designed and developed a complete demonstration website for a US-based agricultural transportation and logistics business.",
+      "description": "Designed and developed a complete demonstration website for a US-based agricultural transportation and logistics business. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_dakota.jpeg",
       "technologies": ["React", "UI/UX", "Logistics"],
       "playStoreUrl": null,
