@@ -71,6 +71,24 @@ class _HeroText extends StatelessWidget {
     final textTheme = Theme.of(context).textTheme;
     final isMobile = ResponsiveBreakpoints.of(context).isMobile;
 
+    final animatedTitle = DefaultTextStyle(
+      style: textTheme.displayMedium!.copyWith(
+        color: AppColors.primary,
+        fontSize: isMobile ? 28 : 40,
+        height: 1.2,
+      ),
+      child: AnimatedTextKit(
+        animatedTexts: [
+          TypewriterAnimatedText(
+            AppConstants.devTitle,
+            textAlign: isMobile ? TextAlign.center : TextAlign.start,
+            speed: const Duration(milliseconds: 100),
+          ),
+        ],
+        isRepeatingAnimation: false,
+      ),
+    );
+
     return Column(
       crossAxisAlignment: ResponsiveBreakpoints.of(context).isMobile
           ? CrossAxisAlignment.center
@@ -101,25 +119,10 @@ class _HeroText extends StatelessWidget {
             .fadeIn(delay: 200.ms, duration: 600.ms)
             .slideX(begin: -0.2, end: 0),
         const SizedBox(height: 12),
-        FittedBox(
-          fit: BoxFit.scaleDown,
-          child: DefaultTextStyle(
-            style: textTheme.displayMedium!.copyWith(
-              color: AppColors.primary,
-              fontSize: isMobile ? 28 : 40,
-              height: 1.2,
-            ),
-            child: AnimatedTextKit(
-              animatedTexts: [
-                TypewriterAnimatedText(
-                  AppConstants.devTitle,
-                  speed: const Duration(milliseconds: 100),
-                ),
-              ],
-              isRepeatingAnimation: false,
-            ),
-          ),
-        ),
+        if (isMobile)
+          SizedBox(width: double.infinity, child: animatedTitle)
+        else
+          FittedBox(fit: BoxFit.scaleDown, child: animatedTitle),
         const SizedBox(height: 24),
         Text(
               AppConstants.devDescription,
