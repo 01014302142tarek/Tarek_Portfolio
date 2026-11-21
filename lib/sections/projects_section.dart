@@ -23,7 +23,7 @@ class ProjectsSection extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           const SectionTitle(
-            title: 'Actual Mobile Projects',
+            title: 'Featured Projects',
             lineWidth: 80,
           ),
           SizedBox(height: isMobile ? 40 : 60),
