@@ -1,80 +1,35 @@
-# 🚀 Tarek | Full-Stack Web Developer & Software Engineer
+# Tarek Bakr - Personal Portfolio
 
-Welcome to the repository of my personal portfolio application! This application is built with Flutter Web and serves as an interactive digital resume to showcase my professional journey, technical expertise, projects, and web development services.
+My personal portfolio app, built with **Flutter Web**. It works as an interactive resume: experience, projects, certificates, tech stack, and contact.
 
-## 👨‍💻 About Me
+## Featured Projects
 
-**Full-Stack Web Developer** with hands-on experience building modern, scalable, and responsive web applications. I specialize in crafting high-performance user interfaces, robust backend APIs, and clean software architectures.
+### TawariApp - Telemedicine Platform
+Full-stack telemedicine web app: video consultations (WebRTC/Daily.co), appointment queues, e-prescriptions, payments, and realtime notifications. Bilingual (Arabic/English).
+* **Stack:** Next.js, React, TypeScript, Supabase, Tailwind CSS, Playwright
+* **Source:** https://github.com/01014302142tarek/tawariapp
+* **Live:** https://tawariapp-three.vercel.app
 
----
+### Dorak - Bank Visit Organizer (PWA)
+Arabic RTL progressive web app that organizes bank branch visits: pick a branch and time slot, get a ticket on your device, plus a loan calculator.
+* **Stack:** PWA on Vercel
+* **Live:** https://dorak-pwa.vercel.app/
 
-## 🛠️ Tech Stack & Expertise
+## Tech Stack
 
-* **Frontend:** React, Next.js, TypeScript, JavaScript (ES6+), Tailwind CSS, HTML5 & Modern CSS
-* **Backend & APIs:** Node.js, Express.js, RESTful APIs, GraphQL, Authentication & Security
-* **Databases & Cloud:** PostgreSQL, MySQL, MongoDB, Redis, Cloudflare, Vercel
-* **Software Engineering:** OOP, Design Patterns, SOLID Principles, Git & GitHub
+* **This app:** Flutter (web), Dart, google_fonts, flutter_animate, responsive_framework
+* **Overall:** React, Next.js, TypeScript, JavaScript, Node.js, Supabase/PostgreSQL, Tailwind CSS, Git & GitHub
 
----
+## Running Locally
 
-## 📂 Featured Projects
+```bash
+git clone https://github.com/01014302142tarek/Tarek_Portfolio.git
+cd Tarek_Portfolio
+flutter pub get
+flutter run -d chrome
+```
 
-### 🛒 Modern E-Commerce Web App
-Full-stack e-commerce web platform featuring product catalog, shopping cart, authentication, order tracking, and payment processing.
-* **Tech Stack:** React, Node.js, Express, MongoDB, Tailwind CSS
-* **Source Code:** [GitHub Repository](https://github.com/01014302142tarek/Tarek_Portfolio)
+## Contact
 
-### 📊 Interactive SaaS Dashboard
-Real-time web analytics and management dashboard with data visualization, dark/light theme, and secure authentication.
-* **Tech Stack:** Next.js, TypeScript, PostgreSQL, Tailwind CSS, REST APIs
-* **Source Code:** [GitHub Repository](https://github.com/01014302142tarek/Tarek_Portfolio)
-
----
-
-## 💼 Services
-
-* **Full-Stack Web Development:** Building scalable, responsive, and robust web applications.
-* **Frontend & Interactive UI:** Crafting fast, modern, and accessible user interfaces.
-* **Backend & API Engineering:** Designing secure RESTful/GraphQL APIs and microservices.
-* **Performance & Cloud Deployment:** Fast hosting, SEO optimization, and Cloudflare deployment.
-
----
-
-## 🚀 Running the Project
-
-To run this portfolio app locally:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/01014302142tarek/Tarek_Portfolio.git
-   ```
-2. **Navigate to the directory:**
-   ```bash
-   cd Tarek_Portfolio
-   ```
-3. **Install dependencies:**
-   ```bash
-   flutter pub get
-   ```
-4. **Run the application:**
-   ```bash
-   flutter run -d chrome
-   ```
-5. **Build for Web / Cloudflare Pages:**
-   ```bash
-   flutter build web --release
-   ```
-
----
-
-## 📬 Contact Me
-
-Let's connect! Feel free to reach out for collaborations or job opportunities:
-
-* **GitHub:** [01014302142tarek](https://github.com/01014302142tarek)
-* **WhatsApp:** [+201014302142](https://wa.me/201014302142)
-* **Email:** [tarek.dev@gmail.com](mailto:tarek.dev@gmail.com)
-
----
-
-⭐️ *If you like this portfolio or find the source code helpful, please give it a star on GitHub!*
+* **LinkedIn:** https://www.linkedin.com/in/tarek-bakr-
+* **Email:** tbakr373@gmail.com
