@@ -4,7 +4,7 @@
     "title": "Full-Stack Web Developer | Cybersecurity Specialist",
     "description": "I build responsive, high-performance web applications and specialize in web application security and vulnerability assessment.",
     "about": "Full-Stack Web Developer and Cybersecurity Specialist with professional experience developing and delivering web applications using JavaScript, React.js, and Node.js. Experienced in frontend and backend development, API integration, application testing, Git/GitHub workflows, and end-to-end project delivery.",
-    "image": "assets/images/my_image.jpeg",
+    "image": "assets/images/1-tarek_profile.jpg",
     "cv": "https://drive.google.com/file/d/1JoPtVsH2aoip9WDY35OdxCwu4B966gSW/view?usp=drive_link",
     "github": "https://github.com/01014302142tarek",
     "linkedin": "https://linkedin.com/in/tarek-bakr-",
@@ -69,7 +69,7 @@
       "degree": "Bachelor's Degree in Information Technology and Software",
       "university": "Delta Technology University, Egypt",
       "period": "Sept 2022 - June 2026",
-      "grade": "Distinction / Excellent grades during the first three academic years.",
+      "grade": "Distinction / Excellent grades during the four academic years.",
       "icon": "graduationCap"
     }
   ],
@@ -78,7 +78,12 @@
       "title": "Dorak - Bank Visit Organizer (PWA)",
       "description": "Designed and built end to end: an Arabic (RTL) PWA for booking and tracking bank branch visits, with time slots, saved tickets and a loan calculator. In active development.",
       "imageUrl": "assets/images/3-dorak_card2.jpeg",
-      "technologies": ["PWA", "JavaScript", "Arabic RTL", "In Active Development"],
+      "technologies": [
+        "PWA",
+        "JavaScript",
+        "Arabic RTL",
+        "In Active Development"
+      ],
       "playStoreUrl": null,
       "githubUrl": "https://dorak-pwa.vercel.app/",
       "repoUrl": "https://github.com/01014302142tarek/dorak"
@@ -87,7 +92,12 @@
       "title": "Islamic Center of the Twin Ports",
       "description": "Developed the website from the ground up, working across both frontend and backend development. Implemented website functionality and performed application security testing. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_ictpmn.jpeg",
-      "technologies": ["React", "Node.js", "Security Testing", "Private Company Project"],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Security Testing",
+        "Private Company Project"
+      ],
       "playStoreUrl": null,
       "githubUrl": "https://www.ictpmn.org/"
     },
@@ -95,7 +105,12 @@
       "title": "Afify LLC - US Client Project",
       "description": "Built a complete business website for a US-based client end to end, across frontend and backend development. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_afify.jpeg",
-      "technologies": ["Frontend", "Backend", "Full-Stack", "Private Company Project"],
+      "technologies": [
+        "Frontend",
+        "Backend",
+        "Full-Stack",
+        "Private Company Project"
+      ],
       "playStoreUrl": null,
       "githubUrl": "https://www.afifyus.com/en"
     },
@@ -103,7 +118,12 @@
       "title": "StudyScope - Educational Platform",
       "description": "Built an educational platform end to end, focused on quizzes, instant feedback, performance analytics, and adaptive learning. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_studyscope.jpeg",
-      "technologies": ["React", "Node.js", "Analytics", "Private Company Project"],
+      "technologies": [
+        "React",
+        "Node.js",
+        "Analytics",
+        "Private Company Project"
+      ],
       "playStoreUrl": null,
       "githubUrl": null
     },
@@ -111,7 +131,12 @@
       "title": "Tawari / Tamanna Emergency Platform",
       "description": "Contributed primarily to frontend development and to a significant portion of the backend implementation. Integrated application features for emergency response. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_tawari.jpeg",
-      "technologies": ["Frontend", "Backend", "Emergency Services", "Private Company Project"],
+      "technologies": [
+        "Frontend",
+        "Backend",
+        "Emergency Services",
+        "Private Company Project"
+      ],
       "playStoreUrl": null,
       "githubUrl": "https://www.tawariapp.com/ar"
     },
@@ -119,7 +144,12 @@
       "title": "Dakota Valley Transport",
       "description": "Designed and developed a complete demonstration website for a US-based agricultural transportation and logistics business. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_dakota.jpeg",
-      "technologies": ["React", "UI/UX", "Logistics", "Private Company Project"],
+      "technologies": [
+        "React",
+        "UI/UX",
+        "Logistics",
+        "Private Company Project"
+      ],
       "playStoreUrl": null,
       "githubUrl": "https://dakotavalleytransport.vercel.app/contact"
     },
@@ -127,7 +157,12 @@
       "title": "BMAD - Code Analysis Application",
       "description": "Built a GitHub-integrated code-analysis application to automatically analyze uploaded code changes before merging into the main branch. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_bmad.jpeg",
-      "technologies": ["JavaScript", "GitHub API", "Automation", "Private Company Project"],
+      "technologies": [
+        "JavaScript",
+        "GitHub API",
+        "Automation",
+        "Private Company Project"
+      ],
       "playStoreUrl": null,
       "githubUrl": null
     }
@@ -160,14 +195,38 @@
     }
   ],
   "expertise": [
-    { "name": "React.js", "icon": "code" },
-    { "name": "Node.js", "icon": "server" },
-    { "name": "JavaScript", "icon": "code" },
-    { "name": "Cybersecurity", "icon": "shieldHalved" },
-    { "name": "Burp Suite / OWASP", "icon": "shieldHalved" },
-    { "name": "Git / GitHub", "icon": "github" },
-    { "name": "REST APIs", "icon": "link" },
-    { "name": "Networking", "icon": "globe" }
+    {
+      "name": "React.js",
+      "icon": "code"
+    },
+    {
+      "name": "Node.js",
+      "icon": "server"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "code"
+    },
+    {
+      "name": "Cybersecurity",
+      "icon": "shieldHalved"
+    },
+    {
+      "name": "Burp Suite / OWASP",
+      "icon": "shieldHalved"
+    },
+    {
+      "name": "Git / GitHub",
+      "icon": "github"
+    },
+    {
+      "name": "REST APIs",
+      "icon": "link"
+    },
+    {
+      "name": "Networking",
+      "icon": "globe"
+    }
   ],
   "expertiseDetails": [
     {
@@ -190,17 +249,40 @@
     {
       "title": "Web Development",
       "icon": "code",
-      "skills": ["React.js", "JavaScript", "Node.js", "HTML & CSS", "REST APIs", "Full-Stack Development"]
+      "skills": [
+        "React.js",
+        "JavaScript",
+        "Node.js",
+        "HTML & CSS",
+        "REST APIs",
+        "Full-Stack Development"
+      ]
     },
     {
       "title": "Cybersecurity & Tools",
       "icon": "shieldHalved",
-      "skills": ["Burp Suite", "OWASP ZAP", "Nmap", "Wireshark", "SQLMap", "Vulnerability Assessment", "Metasploit", "Gobuster"]
+      "skills": [
+        "Burp Suite",
+        "OWASP ZAP",
+        "Nmap",
+        "Wireshark",
+        "SQLMap",
+        "Vulnerability Assessment",
+        "Metasploit",
+        "Gobuster"
+      ]
     },
     {
       "title": "Networking & Systems",
       "icon": "server",
-      "skills": ["TCP/IP", "OSI Model", "VLAN", "Windows / Linux / Kali", "Bash Scripting", "Python"]
+      "skills": [
+        "TCP/IP",
+        "OSI Model",
+        "VLAN",
+        "Windows / Linux / Kali",
+        "Bash Scripting",
+        "Python"
+      ]
     }
   ],
   "socialLinks": [
