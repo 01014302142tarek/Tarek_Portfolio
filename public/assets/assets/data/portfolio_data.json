@@ -14,7 +14,7 @@
   },
   "stats": [
     {
-      "title": "8+",
+      "title": "6",
       "subtitle": "Web Projects",
       "icon": "laptopCode"
     },
@@ -24,8 +24,8 @@
       "icon": "layerGroup"
     },
     {
-      "title": "3+",
-      "subtitle": "Years Experience",
+      "title": "Full-Stack",
+      "subtitle": "Web Development",
       "icon": "businessTime"
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "title": "StudyScope - Educational Platform",
-      "description": "Built an educational platform end to end, focused on quizzes, instant feedback, performance analytics, and adaptive learning.",
+      "description": "Built an educational platform end to end, focused on quizzes, instant feedback, performance analytics, and adaptive learning. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_studyscope.jpeg",
       "technologies": ["React", "Node.js", "Analytics"],
       "playStoreUrl": null,
@@ -116,7 +116,7 @@
     },
     {
       "title": "BMAD - Code Analysis Application",
-      "description": "Built a GitHub-integrated code-analysis application to automatically analyze uploaded code changes before merging into the main branch.",
+      "description": "Built a GitHub-integrated code-analysis application to automatically analyze uploaded code changes before merging into the main branch. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_bmad.jpeg",
       "technologies": ["JavaScript", "GitHub API", "Automation"],
       "playStoreUrl": null,
