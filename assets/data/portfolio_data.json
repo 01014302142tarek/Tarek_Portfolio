@@ -76,8 +76,8 @@
   "projects": [
     {
       "title": "Dorak - Bank Visit Organizer (PWA)",
-      "description": "Designed and built end to end: an Arabic (RTL) progressive web app for booking and tracking bank branch visits, with branch and time-slot selection, saved visit tickets and a loan calculator. Source code: github.com/01014302142tarek/dorak. In active development.",
-      "imageUrl": "assets/images/1-project_dorak.jpeg",
+      "description": "Designed and built end to end: an Arabic (RTL) PWA for booking and tracking bank branch visits, with time slots, saved tickets and a loan calculator. In active development. Code: github.com/01014302142tarek/dorak",
+      "imageUrl": "assets/images/2-dorak_card.jpeg",
       "technologies": ["PWA", "JavaScript", "Arabic RTL", "In Active Development"],
       "playStoreUrl": null,
       "githubUrl": "https://dorak-pwa.vercel.app/"
@@ -86,7 +86,7 @@
       "title": "Islamic Center of the Twin Ports",
       "description": "Developed the website from the ground up, working across both frontend and backend development. Implemented website functionality and performed application security testing. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_ictpmn.jpeg",
-      "technologies": ["React", "Node.js", "Security Testing"],
+      "technologies": ["React", "Node.js", "Security Testing", "Private Company Project"],
       "playStoreUrl": null,
       "githubUrl": "https://www.ictpmn.org/"
     },
@@ -94,7 +94,7 @@
       "title": "Afify LLC - US Client Project",
       "description": "Built a complete business website for a US-based client end to end, across frontend and backend development. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_afify.jpeg",
-      "technologies": ["Frontend", "Backend", "Full-Stack"],
+      "technologies": ["Frontend", "Backend", "Full-Stack", "Private Company Project"],
       "playStoreUrl": null,
       "githubUrl": "https://www.afifyus.com/en"
     },
@@ -102,7 +102,7 @@
       "title": "StudyScope - Educational Platform",
       "description": "Built an educational platform end to end, focused on quizzes, instant feedback, performance analytics, and adaptive learning. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_studyscope.jpeg",
-      "technologies": ["React", "Node.js", "Analytics"],
+      "technologies": ["React", "Node.js", "Analytics", "Private Company Project"],
       "playStoreUrl": null,
       "githubUrl": null
     },
@@ -110,7 +110,7 @@
       "title": "Tawari / Tamanna Emergency Platform",
       "description": "Contributed primarily to frontend development and to a significant portion of the backend implementation. Integrated application features for emergency response. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_tawari.jpeg",
-      "technologies": ["Frontend", "Backend", "Emergency Services"],
+      "technologies": ["Frontend", "Backend", "Emergency Services", "Private Company Project"],
       "playStoreUrl": null,
       "githubUrl": "https://www.tawariapp.com/ar"
     },
@@ -118,7 +118,7 @@
       "title": "Dakota Valley Transport",
       "description": "Designed and developed a complete demonstration website for a US-based agricultural transportation and logistics business. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_dakota.jpeg",
-      "technologies": ["React", "UI/UX", "Logistics"],
+      "technologies": ["React", "UI/UX", "Logistics", "Private Company Project"],
       "playStoreUrl": null,
       "githubUrl": "https://dakotavalleytransport.vercel.app/contact"
     },
@@ -126,7 +126,7 @@
       "title": "BMAD - Code Analysis Application",
       "description": "Built a GitHub-integrated code-analysis application to automatically analyze uploaded code changes before merging into the main branch. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_bmad.jpeg",
-      "technologies": ["JavaScript", "GitHub API", "Automation"],
+      "technologies": ["JavaScript", "GitHub API", "Automation", "Private Company Project"],
       "playStoreUrl": null,
       "githubUrl": null
     }
