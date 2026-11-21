@@ -120,7 +120,7 @@ class _ProjectCardState extends State<ProjectCard> {
                   // GitHub button — appears on hover (desktop) or always on mobile
                   AnimatedOpacity(
                     duration: const Duration(milliseconds: 300),
-                    opacity: isHovered ? 1.0 : 0.0,
+                    opacity: ResponsiveBreakpoints.of(context).isMobile ? 0.0 : 1.0,
                     child: Container(
                       color: Colors.black.withValues(alpha: 0.35),
                       child: Center(
