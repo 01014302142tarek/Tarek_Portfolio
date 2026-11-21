@@ -84,7 +84,7 @@
     },
     {
       "title": "Afify LLC - US Client Project",
-      "description": "Developed a complete business website for a US-based client, contributing across frontend and backend development.",
+      "description": "Built a complete business website for a US-based client end to end, across frontend and backend development.",
       "imageUrl": "assets/images/project_afify.jpeg",
       "technologies": ["Frontend", "Backend", "Full-Stack"],
       "playStoreUrl": null,
@@ -92,7 +92,7 @@
     },
     {
       "title": "StudyScope - Educational Platform",
-      "description": "Contributed to the development of an educational platform focused on quizzes, instant feedback, performance analytics, and adaptive learning.",
+      "description": "Built an educational platform end to end, focused on quizzes, instant feedback, performance analytics, and adaptive learning.",
       "imageUrl": "assets/images/project_studyscope.jpeg",
       "technologies": ["React", "Node.js", "Analytics"],
       "playStoreUrl": null,
