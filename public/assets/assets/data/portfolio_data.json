@@ -75,6 +75,14 @@
   ],
   "projects": [
     {
+      "title": "Dorak - Bank Visit Organizer (PWA)",
+      "description": "Designed and built end to end: an Arabic (RTL) progressive web app for booking and tracking bank branch visits, with branch and time-slot selection, saved visit tickets and a loan calculator. Source code: github.com/01014302142tarek/dorak. In active development.",
+      "imageUrl": "assets/images/1-project_dorak.jpeg",
+      "technologies": ["PWA", "JavaScript", "Arabic RTL", "In Active Development"],
+      "playStoreUrl": null,
+      "githubUrl": "https://dorak-pwa.vercel.app/"
+    },
+    {
       "title": "Islamic Center of the Twin Ports",
       "description": "Developed the website from the ground up, working across both frontend and backend development. Implemented website functionality and performed application security testing. Private company project; source code is not available for public release.",
       "imageUrl": "assets/images/project_ictpmn.jpeg",
