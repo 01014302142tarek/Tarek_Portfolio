@@ -119,10 +119,21 @@ class _HeroText extends StatelessWidget {
             .fadeIn(delay: 200.ms, duration: 600.ms)
             .slideX(begin: -0.2, end: 0),
         const SizedBox(height: 12),
-        if (isMobile)
-          SizedBox(width: double.infinity, child: animatedTitle)
+       if (isMobile)
+        SizedBox(
+          width: double.infinity,
+          child: Text(
+            AppConstants.devTitle.replaceFirst(' | ', ' |\n'),
+            style: textTheme.displayMedium!.copyWith(
+              color: AppColors.primary,
+              fontSize: 24,
+              height: 1.2,
+              ),
+            textAlign: TextAlign.center,
+            ),
+          )
         else
-          FittedBox(fit: BoxFit.scaleDown, child: animatedTitle),
+        FittedBox(fit: BoxFit.scaleDown, child: animatedTitle),
         const SizedBox(height: 24),
         Text(
               AppConstants.devDescription,
