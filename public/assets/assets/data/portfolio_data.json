@@ -76,11 +76,12 @@
   "projects": [
     {
       "title": "Dorak - Bank Visit Organizer (PWA)",
-      "description": "Designed and built end to end: an Arabic (RTL) PWA for booking and tracking bank branch visits, with time slots, saved tickets and a loan calculator. In active development. Code: github.com/01014302142tarek/dorak",
+      "description": "Designed and built end to end: an Arabic (RTL) PWA for booking and tracking bank branch visits, with time slots, saved tickets and a loan calculator. In active development.",
       "imageUrl": "assets/images/3-dorak_card2.jpeg",
       "technologies": ["PWA", "JavaScript", "Arabic RTL", "In Active Development"],
       "playStoreUrl": null,
-      "githubUrl": "https://dorak-pwa.vercel.app/"
+      "githubUrl": "https://dorak-pwa.vercel.app/",
+      "repoUrl": "https://github.com/01014302142tarek/dorak"
     },
     {
       "title": "Islamic Center of the Twin Ports",
