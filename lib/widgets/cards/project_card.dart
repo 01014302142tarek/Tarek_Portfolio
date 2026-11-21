@@ -140,8 +140,11 @@ class _ProjectCardState extends State<ProjectCard> {
                               ),
                             if (widget.liveDemoUrl != null)
                               PrimaryButton(
-                                text: 'Live Demo',
-                                icon: const Icon(Icons.open_in_new, size: 16),
+                                text: 'View Code',
+                                icon: const FaIcon(
+                                  FontAwesomeIcons.github,
+                                  size: 16,
+                                ),
                                 onPressed: () =>
                                     _launchUrl(widget.liveDemoUrl),
                               ),
@@ -176,6 +179,38 @@ class _ProjectCardState extends State<ProjectCard> {
                                   FaIcon(FontAwesomeIcons.globe, size: 14, color: Colors.white),
                                   SizedBox(width: 6),
                                   Text('View Website', style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w500)),
+                                ],
+                              ),
+                            ),
+                          );
+                        },
+                      ),
+                    ),
+                  if (widget.liveDemoUrl != null)
+                    Positioned(
+                      bottom: 10,
+                      left: 12,
+                      child: Builder(
+                        builder: (context) {
+                          final isMobile = ResponsiveBreakpoints.of(context).isMobile;
+                          if (!isMobile) return const SizedBox.shrink();
+                          return GestureDetector(
+                            onTap: () => _launchUrl(widget.liveDemoUrl),
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                              decoration: BoxDecoration(
+                                color: Colors.black.withValues(alpha: 0.6),
+                                borderRadius: BorderRadius.circular(20),
+                                border: Border.all(
+                                  color: Colors.white.withValues(alpha: 0.3),
+                                ),
+                              ),
+                              child: const Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  FaIcon(FontAwesomeIcons.github, size: 14, color: Colors.white),
+                                  SizedBox(width: 6),
+                                  Text('View Code', style: TextStyle(color: Colors.white, fontSize: 12, fontWeight: FontWeight.w500)),
                                 ],
                               ),
                             ),
