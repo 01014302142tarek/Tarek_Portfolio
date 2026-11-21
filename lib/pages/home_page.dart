@@ -249,7 +249,10 @@ class _NavBarItem extends StatelessWidget {
       style: TextButton.styleFrom(
         foregroundColor: Theme.of(context).textTheme.bodyLarge?.color,
       ),
-      child: Text(title),
+      child: Text(
+        title,
+        style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+      ),
     );
   }
 }
