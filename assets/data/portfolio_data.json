@@ -77,7 +77,7 @@
     {
       "title": "Dorak - Bank Visit Organizer (PWA)",
       "description": "Designed and built end to end: a bilingual (Arabic RTL / English) PWA for planning bank branch visits. Home dashboard with your next visit, time slots, saved tickets, document checklists, calendar reminders, nearest-branch lookup and a loan calculator. Google and email sign-in with cloud sync (Supabase), dark mode, installable and offline-ready. In active development.",
-      "imageUrl": "assets/images/4-dorak_card3.jpeg",
+      "imageUrl": "assets/images/1-4-dorak_card3.jpeg",
       "technologies": [
         "PWA",
         "JavaScript",
