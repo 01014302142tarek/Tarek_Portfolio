@@ -11,8 +11,9 @@ Full-stack telemedicine web app: video consultations (WebRTC/Daily.co), appointm
 * **Live:** https://tawariapp-three.vercel.app
 
 ### Dorak - Bank Visit Organizer (PWA)
-Arabic RTL progressive web app that organizes bank branch visits: pick a branch and time slot, get a ticket on your device, plus a loan calculator.
-* **Stack:** PWA on Vercel
+Bilingual (Arabic RTL / English) progressive web app for planning bank branch visits: home dashboard with your next visit, time slots, saved tickets, document checklists, calendar reminders, nearest-branch lookup, a loan calculator, Google and email sign-in with cloud sync, and dark mode.
+* **Stack:** PWA (HTML/CSS/JavaScript), Supabase (auth + sync), Vercel
+* **Source:** https://github.com/01014302142tarek/dorak
 * **Live:** https://dorak-pwa.vercel.app/
 
 ## Tech Stack
